@@ -1,4 +1,4 @@
-from app import models, user
+from app import user, models
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.database import engine
